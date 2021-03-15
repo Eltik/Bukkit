@@ -1,0 +1,19 @@
+name: Connection
+version: 1.6
+api-version: 1.8
+author: Eltik
+main: eltik.connection.sql.Core
+commands:
+  rpgreload:
+    description: Reloads config.
+  stats:
+    description: Show's stats of the current player.
+  getdata:
+    description: Get's data from the players file of EndranLevelingSystem.
+permissions:
+  connection.*:
+    description: Allows use of all commands.
+  connection.getdata:
+    description: Allows use of getdata.
+  connection.reload:
+    description: Allows use of reload

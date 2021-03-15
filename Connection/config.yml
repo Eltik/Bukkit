@@ -1,0 +1,17 @@
+host: host
+port: 3306
+database: dat_base
+username: root
+password: some_password12345
+table: rpg_data
+
+extras: true
+stage-one-checks: 3
+stage-two-checks: 3
+stage-three-checks: 3
+ban-stage-one: temp-ban
+minutes-stage-one: 1
+ban-stage-two: temp-ban
+minutes-stage-two: 1
+ban-stage-three: ban
+minutes-stage-three: 1

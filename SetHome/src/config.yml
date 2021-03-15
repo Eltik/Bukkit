@@ -1,0 +1,6 @@
+#Player data
+players:
+  homes:
+
+#Whether or not to log data
+log-items: true
