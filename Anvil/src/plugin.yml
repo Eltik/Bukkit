@@ -1,0 +1,10 @@
+name: AnvilRecode
+version: 1.4
+api-version: 1.16
+authors: [SinXIV, Eltik]
+main: eltik.anvil.gui.Core
+
+depend: [NBTAPI, ProtocolLib]
+
+prefix: [Anvil Recode]
+
