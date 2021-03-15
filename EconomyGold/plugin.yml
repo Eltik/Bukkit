@@ -1,0 +1,19 @@
+name: EconomyGold
+version: 1.5
+api-version: 1.14
+author: Xp10d3
+main: xp10d3.corelia.main.Core
+commands:
+  eshop:
+    description: ShopGUI.
+  epay:
+    description: Pay player.
+  gold:
+    description: Shows gold.
+permissions:
+  shop.eshop:
+    description: Gives player permission to open the ShopGUI.
+    default: op
+  shop.epay:
+    description: Allows player to pay another player.
+    default: op

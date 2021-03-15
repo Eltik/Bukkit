@@ -1,0 +1,23 @@
+host: localhost
+port: 3306
+database: economygold
+username: root
+password: some_password12345
+table: player_data
+shop:
+  items:
+    BLACK_WOOL:
+      name: Black Wool | $60
+      cost: 60
+      command: give @p black_wool
+mine:
+  enable: true
+  block:
+    iron: 5
+    gold: 7
+    coal: 2
+    lapis: 10
+    redstone: 13
+    diamond: 25
+    emerald: 30
+    quartz: 15
